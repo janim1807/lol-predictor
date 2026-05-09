@@ -1,0 +1,32 @@
+# Environment
+.env
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Data files (download via refresh_data.py)
+src/data/oracleselixir/*.csv
+src/data/oracleselixir/*.csv:Zone.Identifier
+src/data/game_df_cache.parquet
+Data/
+
+# Model weights and artifacts (regenerate via retrain_full.py)
+models/predraft/
+*.pt
+*.joblib
+*.pkl
+*.db
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# Claude Code
+.claude/
